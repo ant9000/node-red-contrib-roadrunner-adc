@@ -1,0 +1,23 @@
+{
+  "name": "node-red-contrib-roadrunner-adc",
+  "version": "0.0.1",
+  "description": "Node-RED nodes to read Acmesystem's Roadrunner ADC lines via IIO.",
+  "keywords": [
+    "node-red",
+    "iio",
+    "adc",
+    "roadrunner",
+    "acmesystems"
+  ],
+  "author": {
+    "name": "Antonio Galea",
+    "email": "antonio.galea@gmail.com"
+  },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {},
+  "node-red": {
+    "nodes": {
+      "roadrunner-adc": "roadrunner-adc.js"
+    }
+  }
+}
